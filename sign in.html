@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caediac certer_login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel='stylesheet' href='styles_login.css'/>
+
+</head>
+<body>
+    <div id="user-login">
+        <div class="container">
+          <br /><br />
+          <h1 class="center-align">HEART FAILURE SYSTEM</h1>
+          <h2><img src="login_logo.jpg" height="250px"/></h2>
+          <h3 class="text">User Login</h3>
+        <br/><br/>
+          <form>
+            <input class='textbox' type='text' v-model='email' placeholder='Email'></input>   
+            <br/>
+            <input class='textbox' type='password' v-model='password' placeholder='Password'></input>
+            <br/>
+            <form>
+              <input type="checkbox"></input>
+              &nbsp;&nbsp;<p1>Remember</p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <p2>Forget your password?</p2>
+            </form>
+            <br/>
+            <button class="btn-submit" type="submit">Login</button>
+            <p class="textlast">Don't have an account yet? <a href="sign up.html">Sign Up</a></p>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>

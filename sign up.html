@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caediac certer_Sign Up</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel='stylesheet' href='styles_sign up.css'/>
+
+</head>
+<body>
+    <div id="user-login">
+        <div class="container">
+          <br /><br />
+          <h1 class="center-align">HEART FAILURE SYSTEM</h1>
+          <h2><img src="login_logo.jpg" height="250px" /></h2>
+          <h3 class="text">Create your account</h3>
+        <br/><br/>
+          <form>
+            <input class='textbox' type='text' v-model='firstname' placeholder='Firstname'></input>&nbsp;&nbsp;&nbsp;&nbsp;  
+            <input class='textbox' type='text' v-model='lastname' placeholder='Lastname'></input>
+            <br/>
+            <input class='textboxemail' type='text' v-model='email' placeholder='Email'></input>
+            <br/>
+            <input class='textbox' type='password' v-model='password' placeholder='Password'></input>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class='textbox' type='password' v-model='password' placeholder='Comfirm'></input>
+            
+            <br/>
+            <button class="btn-submit" type="submit">SING IN</button>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>

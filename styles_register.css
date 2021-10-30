@@ -1,0 +1,87 @@
+.sub {
+  position: absolute;
+  width: 1080px;
+  height: 370px;
+  left: 100px;
+  top: 160px;
+  background: #ece7ea;
+}
+
+.subject1 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.subject2 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 85px;
+}
+
+.subject3 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 120px;
+}
+
+.subject4 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 155px;
+}
+
+.subject5 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 195px;
+}
+
+.textbox2 {
+  margin-left: 130px;
+  position: absolute;
+  line-height: 20px;
+  top: 50px;
+}
+
+.textbox3 {
+  margin-left: 130px;
+  position: absolute;
+  line-height: 20px;
+  top: 230px;
+}
+
+.chack {
+  flex-direction: row;
+  margin-left: 130px;
+  margin-top: 80px;
+}
+
+.btn-submit {
+  margin-left: 100px;
+  margin-top: 550px;
+  width: 199px;
+  height: 45px;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    #4166e9 0%,
+    rgba(237, 24, 177, 0.91) 100%
+  );
+  border-radius: 20px;
+}

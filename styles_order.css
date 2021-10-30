@@ -1,0 +1,234 @@
+.sub1 {
+  position: absolute;
+  width: 1080px;
+  height: 200px;
+  left: 100px;
+  top: 160px;
+  background: #ece7ea;
+}
+
+.subject1 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.subject2 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 85px;
+}
+
+.textbox4 {
+  margin-left: 130px;
+  position: absolute;
+  line-height: 20px;
+  top: 100px;
+}
+
+.center_Order {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 45px;
+}
+
+.Topicsecond {
+  position: absolute;
+  width: 350px;
+  height: 52px;
+  left: 100px;
+  top: 400px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #2f2f2f;
+}
+
+.sub2 {
+  position: absolute;
+  width: 1080px;
+  height: 500px;
+  left: 100px;
+  top: 460px;
+  background: #ece7ea;
+}
+
+.textone {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.textboxsub1 {
+  margin-left: 100px;
+  position: absolute;
+  line-height: 20px;
+  top: 45px;
+}
+
+.textboxsub2 {
+  margin-left: 100px;
+  position: absolute;
+  width: 800px;
+  height: 180px;
+  top: 85px;
+}
+
+.texttwo {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 240px;
+}
+
+.textboxsub3 {
+  margin-left: 160px;
+  position: absolute;
+  line-height: 20px;
+  top: 290px;
+}
+
+.textthree {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 240px;
+}
+
+.textfour {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 240px;
+}
+
+.textboxsub4 {
+  margin-left: 600px;
+  position: absolute;
+  width: 300px;
+  top: 288px;
+}
+
+.textfive {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 277px;
+}
+
+.textboxsub5 {
+  margin-left: 160px;
+  position: absolute;
+  line-height: 20px;
+  top: 350px;
+}
+
+.btn-submitadd {
+  margin-left: 100px;
+  margin-top: 320px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    #4166e9 0%,
+    rgba(237, 24, 177, 0.91) 100%
+  );
+  border-radius: 20px;
+}
+
+.Topicthird {
+  position: absolute;
+  width: 350px;
+  height: 52px;
+  left: 100px;
+  top: 1000px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #2f2f2f;
+}
+
+.sub3 {
+  position: absolute;
+  width: 1080px;
+  height: 600px;
+  left: 100px;
+  top: 1060px;
+  background: #ece7ea;
+}
+
+.btn-submitsave {
+  margin-left: 400px;
+  margin-top: 1005px;
+  width: 160px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    #4166e9 0%,
+    rgba(237, 24, 177, 0.91) 100%
+  );
+  border-radius: 20px;
+}
+
+.totaltable {
+  position: absolute;
+  left: 60px;
+  top: 80px;
+}
+
+.tablehead1 {
+  width: 100px;
+  text-align: center;
+  border: 1px #ece7ea;
+  border-style: double;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.tablehead2 {
+  width: 300px;
+  text-align: center;
+  border: 1px #ece7ea;
+  border-style: double;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table {
+  width: 200px;
+  text-align: center;
+  border: 1px #ece7ea;
+  border-style: double;
+  border-collapse: collapse;
+  background-color: white;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardiac center_Register</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles_web.css" />
+    <link rel="stylesheet" href="styles_register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="backgroundApp">
+        <h1 class="header">ardiac center</h1>
+        <h2 class="imgHeart"><img src="heart.png" height="70px" /></h2>
+        <h3 class="sub_header">MANAGEMENT</h3>
+        <h4 class="imgnotification">
+          <img src="notification.png" height="40px" />
+        </h4>
+        <div class="Manu">
+          <p1 class="main1">OVERVIEW</p1>
+          <br />
+          <p2 class="manu1"><a href="statistic.html">STATISTIC</a></p2>
+          <p3 class="imgstatistic"
+            ><img src="statistic.png" height="50px"
+          /></p3>
+          <br />
+          <p4 class="manu2"><a href="register.html">REGISTER</a></p4>
+          <p5 class="imgregister"><img src="register.png" height="40px" /></p5>
+          <br />
+          <p6 class="main2">PRESRIPTION</p6>
+          <br />
+          <p7 class="manu3"><a href="order.html">ORDER</a></p7>
+          <p8 class="imgorder"><img src="order.png" height="40px" /></p8>
+          <br />
+          <p9 class="manu4"><a href="preview.html">PREVIEW</a></p9>
+          <p10 class="imgpreview"><img src="preview.png" height="40px" /></p10>
+          <br />
+          <p11 class="main3">MEDICAL RECORD</p11>
+          <br />
+          <p12 class="manu5"
+            ><a href="patients.html">PATIENTS LIST</a></p12
+          >
+          <p13 class="imgpatients"
+            ><img src="patients list.png" height="40px"
+          /></p13>
+          <br />
+          <p14 class="manu6"
+            ><a href="medication.html">MEDICATION HISTORY</a></p14
+          >
+          <p15 class="imgmedication"
+            ><img src="medication history.png" height="40px"
+          /></p15>
+        </div>
+
+        <div class="status"></div>
+
+        <div class="sub_background">
+          <h1 class="Topic">Register Patient</h1>
+          <button class="btn-submit" type="submit">ACCEPT</button>
+          <div class='sub'>
+                <h1 class='subject1'>HN </h1> 
+                <br />
+                <h2 class='subject2'>Name </h2>
+                <br/>
+                <h3 class='subject3'>Gender</h3>
+                <br/>
+                <h4 class='subject4'>Birth</h4>
+                <br/>
+                <h5 class='subject5'>Age</h5>
+            <div class='textbox2'>
+                <input type='text' v-model='HN'></input> 
+                <br/><br/><br/>
+                <input type='text' v-model='Name'></input>
+            </div>
+            <div class='textbox3'>
+              <input type='text' v-model='Birth'></input>
+              <br/><br/><br/>
+              <input type='text' v-model='Age'></input>
+            </div>
+
+            <div class='chack'>
+                <input type='radio' v-model='Gender'></input>&nbsp;&nbsp;
+                <p1>Male</p1>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type='radio'></input>&nbsp;&nbsp;
+                <p2>Female</p2>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

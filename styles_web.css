@@ -1,0 +1,204 @@
+.backgroundApp {
+  background: linear-gradient(
+    180deg,
+    rgba(65, 102, 233, 0.4) 0%,
+    rgba(197, 155, 185, 0.4) 100%
+  );
+  position: absolute;
+  width: 1500px;
+  height: 1910px;
+  left: 0px;
+  top: 0px;
+}
+
+.header {
+  margin-left: 80px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  color: #2f2f2f;
+}
+
+.imgHeart {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+
+.sub_header {
+  position: absolute;
+  width: 174px;
+  height: 37px;
+  left: 82px;
+  top: 249px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2f2f2f;
+}
+
+.Manu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f2f2f;
+}
+
+.main1 {
+  position: absolute;
+  width: 118px;
+  height: 20px;
+  left: 82px;
+  top: 296px;
+}
+
+.main2 {
+  position: absolute;
+  width: 162px;
+  height: 26px;
+  left: 82px;
+  top: 524px;
+}
+
+.main3 {
+  position: absolute;
+  width: 195px;
+  height: 23px;
+  left: 82px;
+  top: 755px;
+}
+
+.manu1 {
+  position: absolute;
+  width: 162px;
+  height: 26px;
+  left: 138px;
+  top: 370px;
+}
+
+.imgstatistic {
+  position: absolute;
+  top: 355px;
+  left: 90px;
+}
+
+.manu2 {
+  position: absolute;
+  width: 162px;
+  height: 26px;
+  left: 138px;
+  top: 447px;
+}
+
+.imgregister {
+  position: absolute;
+  top: 442px;
+  left: 95px;
+}
+
+.manu3 {
+  position: absolute;
+  width: 162px;
+  height: 26px;
+  left: 138px;
+  top: 601px;
+}
+
+.imgorder {
+  position: absolute;
+  top: 595px;
+  left: 95px;
+}
+
+.manu4 {
+  position: absolute;
+  width: 162px;
+  height: 26px;
+  left: 138px;
+  top: 678px;
+}
+
+.imgpreview {
+  position: absolute;
+  top: 675px;
+  left: 95px;
+}
+
+.manu5 {
+  position: absolute;
+  width: 149px;
+  height: 25px;
+  left: 138px;
+  top: 830px;
+}
+
+.imgpatients {
+  position: absolute;
+  top: 820px;
+  left: 90px;
+}
+
+.manu6 {
+  position: absolute;
+  width: 116px;
+  height: 53px;
+  left: 138px;
+  top: 900px;
+}
+
+.imgmedication {
+  position: absolute;
+  top: 907px;
+  left: 95px;
+}
+
+.imgnotification {
+  position: absolute;
+  top: 35px;
+  left: 1425px;
+}
+
+.status {
+  position: absolute;
+  width: 279px;
+  height: 107px;
+  left: calc(50% - 279px / 2 + 519.5px);
+  top: 1px;
+
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 15px;
+}
+
+.sub_background {
+  background: #ffffff;
+  color: black;
+  position: absolute;
+  width: 1181px;
+  height: 1800px;
+  left: 319px;
+  top: 108px;
+}
+
+.Topic {
+  position: absolute;
+  width: 900px;
+  height: 52px;
+  left: 100px;
+  top: 100px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #2f2f2f;
+}
